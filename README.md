@@ -1,5 +1,5 @@
 # Web Development Tutorials.
-This repository contains the source code, demonstrations, exercises, and projects used during my Web Development tutoring sessions.
+This repository contains the source code, demonstrations, exercises, and projects used during my Web Development tutoring sessions l will be giving to first year students.
 
 ## Topics Covered
 
