@@ -6,7 +6,7 @@
 
 /* Write your rules below .... */
 h1 {color: #0000ff;}
-h2 {font-size: 20pt;} /* absolute size*/
-/* h2 {font-size: 1.5em;} /*relative size*/
+/*h2 {font-size: 20pt;} /* absolute size*/
+h2 {font-size: 1.5em;} /*relative size*/
 
 li {color:#00ff00;}
