@@ -13,6 +13,11 @@
       font-family: Verdana, Geneva, sans-serif;
       font-size: 1rem;
       color: #333333;
+      background-color: #eef0f1;
+      background-image: url("../images/pattern.png");
+      background-repeat: repeat;
+
+
 
    }
    h1 {
@@ -131,6 +136,11 @@ section#about p:first-child::first-letter{
 }
 section#featured{
    padding-right: 8rem;
+   background-image: url("../images/pomodoro.png");
+   background-repeat: no-repeat;
+   background-position: right top;
+
+
 
 }
 footer{
@@ -141,3 +151,6 @@ footer{
    border-top:1px solid #999999;
 
 }
+/* ============================================================
+   Backgrounds: Added
+   ============================================================ */
