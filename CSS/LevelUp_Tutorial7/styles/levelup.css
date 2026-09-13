@@ -1,0 +1,230 @@
+/* ============================================================
+   LevelUp website
+   CSIS1664 (Tutorial 7): External style sheet
+   Author: Initials. Surname (Student no.)
+   Filename: levelup.css
+   ============================================================ */
+
+
+/* ============================================================
+   1. General CSS rules
+   ============================================================ */
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #eef0f1;
+    background-image: url("../images/pattern.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #146574;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.5rem;
+    color: #146574;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* Step 7: All figure elements (create a new rule)
+   - A margin of 1.5rem at the top and bottom, and no margin at the left
+     and right, using a single shorthand declaration. */
+figure{
+    margin: 1.5rem 0;
+}
+
+/* Step 8: All figure captions (create a new rule)
+   - A font size of 1.125rem
+   - A text colour of #146574
+   - A margin of 0.5rem at the bottom only. */
+figcaption {
+    font-size: 1.125rem;
+    color: #146574;
+    margin-bottom:0.5rem;
+}
+
+/* Step 9: All tables (create a new rule)
+   - A width of 100%
+   - Every cell must be given the same width, even though no width is
+     specified for any individual cell.
+   - The borders of the cells must be collapsed into a single border. */
+table{
+    width:100%;
+    table-layout:fixed;
+    border-collapse:collapse;
+}
+
+/* Step 10: All table header cells AND all table data cells (create a new
+   rule)
+   - Padding of 0.5rem on all four sides.
+   - A solid border of 1px in the colour #146574
+   - The contents of the cell aligned to the top of the cell. */
+th,td{
+    padding:0.5rem;
+    border: 1px solid #146574;
+    vertical-align:top;
+
+}
+
+/* Step 11: All table header cells inside the thead element (create a new
+   rule)
+   - A background colour of #146574
+   - A text colour of #ffffff */
+thead th {
+    background-color: #146574;
+    color: #ffffff;
+}
+
+/* Step 12: Only the first cell of every row, whether it is a header cell
+   or a data cell (create a new rule)
+   - Left aligned text. */
+
+th:first-child, td:first-child{
+    text-align:left;
+}
+
+/* Step 13: Only the second cell of every row, whether it is a header
+   cell or a data cell (create a new rule)
+   - Centred text. */
+
+th:nth-child(2) , td:nth-child(2){
+    text-align:center;
+}
+/* Step 14: Every even-numbered row inside the tbody element (create a
+   new rule)
+   - A background colour of hsl(43, 84%, 95%) */
+
+tbody tr:nth-child(even) {
+    background-color: hsl(43, 84%, 95%);
+}
+
+/* ============================================================
+   2. Style classes
+   ============================================================ */
+
+.quote {
+    font-size: 1.125rem;
+    color: hsl(0, 0%, 35%);
+    margin-left: 2rem;
+    padding-left: 1rem;
+    border-left: 4px solid #e6b33b;
+}
+
+.current {
+    color: #e6b33b;
+    font-weight: bold;
+}
+
+.tips {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.tips li {
+    line-height: 1.8;
+}
+
+.tips li:first-child {
+    font-weight: bold;
+}
+
+
+/* ============================================================
+   3. Sections and divisions
+   ============================================================ */
+
+div#wrapper {
+    width: 60rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+nav {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0.75rem;
+    background-color: #146574;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e6b33b;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+main a:link {
+    color: #146574;
+}
+
+main a:visited {
+    color: #6a3d9a;
+}
+
+main a:hover {
+    color: #e6b33b;
+}
+
+main a:active {
+    color: #c0392b;
+}
+
+section#about,
+section#featured {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #146574;
+    border-radius: 8px;
+}
+
+section#about {
+    background-color: hsl(43, 84%, 95%);
+}
+
+section#about p:first-child::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #146574;
+}
+
+section#featured {
+    padding-right: 8rem;
+    background-image: url("../images/pomodoro.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    padding-top: 0.75rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #999999;
+}
