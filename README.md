@@ -5,9 +5,7 @@ This repository contains the source code, demonstrations, exercises, and project
 
 - HTML
 - CSS
-- Responsive Design
-- JavaScript
-- DOM Manipulation
+- Bootstrap
 - Mini Projects
 
 ## Weekly Content
@@ -17,11 +15,8 @@ This repository contains the source code, demonstrations, exercises, and project
 | 1 | Introduction to Web Development |
 | 2 | HTML |
 | 3 | CSS |
-| 4 | JavaScript |
-| 5 | DOM |
-| 6 | Forms |
-| 7 | Responsive Design |
+| 4 | Bootstrap|
+
 
 ## Projects
-
 - Portfolio Website
