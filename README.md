@@ -19,4 +19,4 @@ This repository contains the source code, demonstrations, exercises, and project
 
 
 ## Projects
-- Portfolio Website
+-For 6 months l worked as a Lecturer assistant and a Tutor for CSIS1664 a Web development module at the University of the Free State. My goal after this chapter was to apply what l have been teaching other students and l decided to build my portilifo project. This project is static and was only build using Html , css and bootstrap.
